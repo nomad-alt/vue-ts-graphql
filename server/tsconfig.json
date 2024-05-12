@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",   // Set the target JavaScript version
+    "lib": ["dom", "dom.iterable", "esnext"],  // Include necessary libraries
+    "allowJs": true,   // Allow compiling existing JavaScript files
+    "skipLibCheck": true,  // Skip type checking for included libraries (optional)
+    "strict": true,     // Enable strict type checking
+    "esModuleInterop": true,  // Allow for interoperability between ES modules and CommonJS
+    "allowSyntheticDefaultImports": true,  // Allow synthetic default imports
+    "outDir": "dist"  // Specify output directory for compiled files (optional)
+  },
+  "include": ["src"]  // Specify source directory for TypeScript files
+}
