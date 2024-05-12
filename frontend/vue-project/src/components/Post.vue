@@ -6,10 +6,6 @@
         <div class="card-body">
             <p>{{ post.content }}</p>
         </div>
-        <div class="card-footer">           
-            <button @click="updatePost">Update</button>
-            <button @click="deletePost">Delete</button>
-        </div>
     </div>
 </template>
 
